@@ -1,0 +1,37 @@
+{
+    "name": "jassue/laravel-duoduoke",
+    "description": "拼多多-多多客API Laravel-SDK",
+    "keywords": [
+        "duoduoke",
+        "pinduoduo",
+        "laravel",
+        "sdk"
+    ],
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "jassue",
+            "email": "jassue@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "jassue/pdd-duoduoke": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jassue\\LaravelDuoDuoKe\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jassue\\LaravelDuoDuoKe\\ServiceProvider"
+            ],
+            "aliases": {
+                "DouDouKe": "Jassue\\LaravelDuoDuoKe\\Facades\\Client"
+            }
+        }
+    }
+}
