@@ -30,7 +30,7 @@
                 "Jassue\\LaravelDuoDuoKe\\ServiceProvider"
             ],
             "aliases": {
-                "DouDouKe": "Jassue\\LaravelDuoDuoKe\\Facades\\Client"
+                "DuoDuoKe": "Jassue\\LaravelDuoDuoKe\\Facades\\Client"
             }
         }
     }
