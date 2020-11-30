@@ -8,7 +8,6 @@
         "sdk"
     ],
     "license": "MIT",
-    "version": "1.0",
     "authors": [
         {
             "name": "jassue",
@@ -32,9 +31,6 @@
             "aliases": {
                 "DuoDuoKe": "Jassue\\LaravelDuoDuoKe\\Facades\\Client"
             }
-        },
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
